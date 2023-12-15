@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokemon Search</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="center">
+        <br>
+        <img src="/Users/tung/Desktop/Code/Adv_ComProg/advComFinal/cartoon-pokeball-sticker.png" width = 50px></img>
+        <h1>Pokemon Searcher</h1>
+        <select id="dropdown1" onchange="populateDropdown2()">
+            <option value="">Select Type 1</option>
+            <option value="normal">Normal</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="grass">Grass</option>
+            <option value="flying">Flying</option>
+            <option value="fighting">Fighting</option>
+            <option value="poison">Poison</option>
+            <option value="electric">Electric</option>
+            <option value="ground">Ground</option>
+            <option value="rock">Rock</option>
+            <option value="psychic">Psychic</option>
+            <option value="ice">Ice</option>
+            <option value="bug">Bug</option>
+            <option value="ghost">Ghost</option>
+            <option value="steel">Steel</option>
+            <option value="dragon">Dragon</option>
+            <option value="dark">Dark</option>
+            <option value="fairy">Fairy</option>
+        </select>
+        <select id="dropdown2">
+            <option value="">Select Type 2</option>
+        </select><br><br>
+        <button type="button" onclick="getPokemon()">Search</button><br><br>
+        <!-- <table id="PokeList" width="100%">
+            <tr style="height:70px">
+                <th style="width:20%">Pokedex ID</th>
+                <th style="width:35%">Pokemon Name</th>
+                <th style="width:45%">Sprite Image</th>
+            </tr>
+        </table> -->
+        <div class="container">
+            <h3 id="totalpokemon"></h3>
+
+            <div class="cards" id="pokemonContainer">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

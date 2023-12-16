@@ -31,7 +31,7 @@ button {
   
 body {
 font-family: 'Roboto Slab', sans-serif;
-background-color: #fafcfd;
+background-color: #d1d2d3;
 color: #0e1238;
 }
 
@@ -74,7 +74,7 @@ padding: 0 30px 50px;
 
 .cards .cards-inner {
 display: flex;
-background-color: #d1d2d3;
+background-color: #fafcfd;
 padding: 20px;
 border-radius: 5px;
 transition: box-shadow 0.4s;
